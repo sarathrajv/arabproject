@@ -1,0 +1,255 @@
+.section2{
+    width: 88%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mapcontent span{
+  font-family: 'Poppins', sans-serif;
+}
+.mapdiv2{
+    width: 48%;
+    height: 90%;
+    background-color: white;
+    box-shadow: 0px 1px 8px 0px rgba(114, 114, 114, 0.75);  
+    border-radius: 15px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-evenly;  
+}
+.item1{
+    width:48%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;  
+}
+.item1 span{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.item1 h4{
+  font-family: 'Poppins', sans-serif;
+}
+.item2{
+    width:48%;
+    height: 90%;
+    /* background-color: rgb(0, 255, 145); */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+.item2 h5{
+  font-family: 'Poppins', sans-serif;
+}
+.getstart1 {
+    width: 50%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+  }
+  .getstart1.getstart1-1 {
+    background-color: rgb(178, 255, 173);
+  }
+  
+  .getstart1.getstart1-2 {
+    background-color: rgb(132, 201, 250);
+  }
+  .getstart1 img{
+    width: 25px;
+    height: 25px;
+}
+.getstart1 span{
+  font-size: 13px;
+  font-weight: 800;
+  color: rgb(16, 16, 16);
+  font-family: 'Poppins', sans-serif;
+}
+.spanClass {
+    width: 40%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    background-color: #ffff00;
+    border-radius: 360px;
+    
+  }
+  .spanClass span{
+    font-size: 11px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .spanClass.spanClass-1 {
+    background-color: rgb(178, 255, 173);
+  }
+  
+  .spanClass.spanClass-2 {
+    background-color: rgb(132, 201, 250);
+  }
+
+
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section2{
+        width: 96%;
+        height: 280px;
+       }
+       .mapdiv2{
+        width: 49%;
+        height: 90%;
+       }
+       .item1{
+        width:50%;
+        height: 100%;
+        /* background-color: blue; */
+         
+    }
+    .spanClass{
+      width: 50%;
+    }
+    .spanClass span{
+        font-size: 9px;
+        font-weight: 800;
+      }
+      .item1 h4{
+        font-size: 15px;
+        font-weight: 700;
+      }
+      .getstart1 {
+        width: 60%;
+        height: 30px;
+      }
+      .getstart1 img{
+        width: 20px;
+        height: 20px;
+    }
+    .getstart1 span{
+      font-size: 12px;
+      font-weight: 800;
+      color: rgb(16, 16, 16);
+    }
+    .item1 span{
+        font-size: 10px;
+        font-weight: 600;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+   .section2{
+    width: 98%;
+    height: 280px;
+   }
+   .mapdiv2{
+    width: 49%;
+    height: 90%;
+   }
+   .item1{
+    width:50%;
+    height: 100%;
+    /* background-color: blue; */
+     
+}
+.spanClass{
+  width: 50%;
+}
+.spanClass span{
+    font-size: 9px;
+    font-weight: 800;
+  }
+  .item1 h4{
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .getstart1 {
+    width: 60%;
+    height: 30px;
+  }
+  .getstart1 img{
+    width: 20px;
+    height: 20px;
+}
+.getstart1 span{
+  font-size: 12px;
+  font-weight: 800;
+  color: rgb(16, 16, 16);
+}
+.item1 span{
+    font-size: 10px;
+    font-weight: 600;
+}
+.item2{
+    /* background-color: bisque; */
+   
+}
+  }
+
+  @media only screen and (min-width: 637px) and (max-width: 697px) {
+   
+    .item2{
+        overflow-y: scroll;
+    }
+        
+}
+@media only screen and (min-width: 500px) and (max-width: 637px) {
+    
+    
+    .spanClass{
+      width: 60%;
+    }
+    .item2{
+        overflow-y: scroll;
+    }
+    .getstart1{
+        width: 74%;
+    }
+    .getstart1{
+        font-size: 10px;
+    }
+        
+}
+
+@media only screen and (min-width: 480px)  and (max-width: 591px) {
+    .spanClass{
+        width: 70%;
+        height: 28px;
+    }
+    .item2{
+        overflow-y: scroll;
+    }
+    .getstart1{
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .section2{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 830px;
+      margin-top: 15px;
+      gap: 10px;
+    }
+    .mapdiv2{
+        width: 95%;
+        height: 220px;
+       
+    }
+    .item2{
+        overflow-y: scroll;
+    }
+}

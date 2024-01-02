@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.home{
+    background-color: rgb(227,241,254);
+    width: 100%;
+    height: 100vh;
+}
+.first{
+    width: 97%;
+    height: 100px;
+    /* background-color: #ffff00; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p-div{
+    width: 23%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding-left: 68px;
+    /* background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); */
+}
+.p-div img{
+    width: 100%;
+    height: 100%;
+}
+.tab{
+    width: 18%;
+    height: 40px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.scroll-data{
+    width: 65%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 4px;
+}
+.scroll-arrow{
+    width: 15%;
+    height: 39px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 8px 0px rgba(110, 110, 110, 0.75);
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+.scroll-data img{
+    width:26px;
+     height:26px;
+}
+.scroll-data span{
+    font-size: 12px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+.scroll-arrow img{
+    width: 15px;
+    height: 15px;
+}
+
+.main{
+    background-Color:red;
+    width:100%;
+    display: flex;
+}
+
+.second{
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0px 1px 8px 0px rgba(110, 110, 110, 0.75); */
+    width: 100%;
+    height: 632px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+}
+
+
+
+.properties{
+    width: 80%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    /* justify-content:center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+
+  /* notification>>>? */
+
+  .notifi{
+    width: 4%;
+    height: 100%;
+    background-color: rgb(227,241,254);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .notification{
+    width: 100%;
+    height: 88%;
+    /* background-color: rgb(0, 255, 255); */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+ .notification-bell{
+    width: 80%;
+    height: 39px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 8px 0px rgba(110, 110, 110, 0.75);
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+ } 
+ .notification-plus{
+    width: 75%;
+    height: 39px;
+    background-color: rgb(181, 226, 252);
+    box-shadow: 0px 1px 8px 0px rgba(110, 110, 110, 0.75);
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+ } 
+
+
+ @media only screen and (min-width: 991px) and (max-width: 1205px) {
+    .tab{
+        width: 27%;
+        height: 40px;
+    }
+    .scroll-data{
+        width: 68%;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+      
+    }
+    .scroll-arrow{
+        width: 15%;
+        height: 39px;
+       
+    }
+    .scroll-data img{
+        width:24px;
+         height:24px;
+    }
+    .scroll-data span{
+        font-size:13px;
+        font-weight: 800;    
+    }
+}
+
+
+ @media only screen and  (max-width: 991px) {
+    
+    .p-div{
+        width: 26%;
+        height: 100%;
+        padding-left: 0;
+    }
+    .tab{
+        width: 28%;
+        height: 40px;
+    }
+    .scroll-data{
+        width: 65%;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+      
+    }
+    .scroll-arrow{
+        width: 15%;
+        height: 39px;
+       
+    }
+    .scroll-data img{
+        width:17px;
+         height:17px;
+    }
+    .scroll-data span{
+        font-size:10px;
+        font-weight: 800;    
+    }
+    .scroll-arrow img{
+        width: 12px;
+        height: 12px;
+    }
+    
+    
+    .properties{
+        width: 92%;
+      position: relative;
+    }
+    .notifi{
+        height: 20%;
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        left: 95%;
+        top: 90%;
+        border: 1px solid gray;
+        box-shadow: 0px 1px 8px 0px rgba(110, 110, 110, 0.75);
+       }
+       .notification{
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+       }
+       .notification-bell,
+       .notification-plus{
+        box-shadow: none;
+       }  
+       .notification-plus{
+       height: 30px;   
+    }
+  }
+
+
+ @media only screen and (max-width: 768px) {
+    .p-div{
+        width: 20%;
+        height: 100%;
+        padding-left: 0;
+    }
+    .tab{
+        width: 28%;
+        height: 40px;
+    }
+    .scroll-data{
+        width: 65%;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+      
+    }
+    .scroll-arrow{
+        width: 15%;
+        height: 39px;
+       
+    }
+    .scroll-data img{
+        width:17px;
+         height:17px;
+    }
+    .scroll-data span{
+        font-size:10px;
+        font-weight: 800;    
+    }
+    .scroll-arrow img{
+        width: 12px;
+        height: 12px;
+    }
+    
+    
+    .properties{
+      width: 92%;
+      position: relative;
+      /* background-color: aquamarine; */
+    }
+    .notifi{
+        width: 40px;
+        height: 20%;
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        left: 94%;
+        top: 92%;
+        border: 1px solid gray;
+        box-shadow: 0px 1px 8px 0px rgba(110, 110, 110, 0.75);
+       }
+       .notification{
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+       }
+       .notification-bell,
+       .notification-plus{
+        box-shadow: none;
+       }  
+       .notification-plus{
+       height: 30px;   
+    }
+
+ }
+  
+ @media only screen and (max-width: 697px) {
+    .p-div{
+        width: 20%;
+        height: 100%;
+        padding-left: 0;
+        background-color: yellow;
+    }
+    .p-div img{
+        width: 50px;
+        height: 50px;
+        padding-left: 0;
+    }
+}
+  @media only screen and (max-width: 670px) {
+    .p-div{
+        width: 12%;
+        height: 100%;
+        padding-left: 0;
+    }
+    .p-div img{
+        width: 50px;
+        height: 50px;
+        padding-left: 0;
+    }
+    .tab{
+        width: 38%;
+        height: 40px;
+    }
+    .scroll-data{
+        width: 68%;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+      
+    }
+    .scroll-arrow{
+        width: 15%;
+        height: 39px;
+       
+    }
+    .scroll-data img{
+        width:17px;
+         height:17px;
+    }
+    .scroll-data span{
+        font-size:10px;
+        font-weight: 800;    
+    }
+    .scroll-arrow img{
+        width: 12px;
+        height: 12px;
+    }
+    
+    
+    .properties{
+      width: 82%;
+    }
+    .notifi{
+        background-color: white;
+       }
+    
+  }
+
+  @media only screen and  (max-width: 697px) {
+    .p-div{
+        width: 28% ;
+        height: 100%;
+        padding-left: 0;
+        background-color: aqua;
+    }
+    .p-div img{
+        width: 100%;
+        height: 100%;
+        padding-left: 0;
+    }
+    .properties{
+        /* background-color: aquamarine; */
+        width: 100%;
+    }
+    .notifi{
+        width: 40px;
+        height: 20%;
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        left: 94%;
+        top: 89%;
+        border: 1px solid gray;
+        box-shadow: 0px 1px 8px 0px rgba(110, 110, 110, 0.75);
+       }
+  }
+
+  @media only screen and (min-width: 591px) and (max-width: 637px) {
+    .p-div{
+        width: 21%;
+        height: 100%;
+        padding-left: 0;
+    }
+    .p-div img{
+        width: 100%;
+        height: 100%;
+        padding-left: 0;
+    }
+    .properties{
+        /* background-color: aquamarine; */
+        width: 100%;
+    }
+    .notifi{
+        width: 40px;
+        height: 20%;
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        left: 94%;
+        top: 89%;
+        border: 1px solid gray;
+        box-shadow: 0px 1px 8px 0px rgba(110, 110, 110, 0.75);
+       }
+  }
+   
+  @media only screen and  (max-width: 591px){
+    .p-div{
+        width: 21%;
+        height: 100%;
+        padding-left: 0;
+    }
+    .p-div img{
+        width: 100%;
+        height: 100%;
+        padding-left: 0;
+    }
+    .tab{
+        width: 38%;
+        height: 40px;
+    }
+    .scroll-data{
+        width: 85%;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+      
+    }
+    .scroll-arrow{
+        width: 15%;
+        height: 39px;
+       
+    }
+    .scroll-data img{
+        width:17px;
+         height:17px;
+    }
+    .scroll-data span{
+        font-size:10px;
+        font-weight: 800;    
+    }
+    .scroll-arrow img{
+        width: 12px;
+        height: 12px;
+    }
+    .notifi{
+       background-color: white;
+      }
+
+  }
+
+  @media only screen and (min-width: 480px)  and (max-width: 500px) {
+    .p-div{
+        width: 21%;
+        height: 100%;
+        padding-left: 0;
+    }
+    .p-div img{
+        width: 100%;
+        height: 100%;
+        padding-left: 0;
+    }
+    .properties{
+        width: 95%;
+    }
+    .tab{
+        width: 38%;
+        height: 40px;
+    }
+       .scroll-data{
+        width: 67%;
+        height: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+    .scroll-arrow{
+        width: 15%;
+        height: 30px;
+       
+    }
+    .scroll-data img{
+        width:17px;
+         height:17px;
+    }
+    .scroll-data span{
+        font-size:9px;
+        font-weight: 800;    
+    }
+    .scroll-arrow img{
+        width: 12px;
+        height: 12px;
+    }
+  }
+
+  @media only screen and (min-width: 350px) and (max-width: 480px){
+
+    .p-div{
+        width: 29% !important;
+        height: 100%;
+        /* padding-left: 10px; */
+        background-color: aquamarine;
+
+    }
+    .p-div img{
+        width: 100% !important;
+        height: 100% !important;
+      
+        
+    }
+    .properties{
+        width: 100%;
+        overflow-y: scroll;
+    }
+    .notifi{
+        width: 40px;
+        height: 20%;
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        left: 88%;
+        top: 80%;
+        border: 1px solid gray;
+        box-shadow: 0px 1px 8px 0px rgba(110, 110, 110, 0.75);
+       }
+       .tab{
+        width: 48%;
+        height: 40px;
+    }
+       .scroll-data{
+        width: 80%;
+        height: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+    .scroll-arrow{
+        width: 15%;
+        height: 30px;
+       
+    }
+    .scroll-data img{
+        width:17px;
+         height:17px;
+    }
+    .scroll-data span{
+        font-size:9px;
+        font-weight: 800;    
+    }
+    .scroll-arrow img{
+        width: 12px;
+        height: 12px;
+    }
+    .p-div{
+        width: 17%;
+        height: 100%;
+        padding-left: 0;
+    }
+    .p-div img{
+        width: 50px;
+        height: 50px;
+        padding-left: 0;
+    }
+    .first{
+        height: 70px;
+    }
+  }
